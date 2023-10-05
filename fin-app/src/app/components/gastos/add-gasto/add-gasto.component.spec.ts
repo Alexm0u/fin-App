@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ActualComponent } from './actual.component';
+import { AddGastoComponent } from './add-gasto.component';
 
-describe('ActualComponent', () => {
-  let component: ActualComponent;
-  let fixture: ComponentFixture<ActualComponent>;
+describe('AddGastoComponent', () => {
+  let component: AddGastoComponent;
+  let fixture: ComponentFixture<AddGastoComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [ActualComponent]
+      declarations: [AddGastoComponent]
     });
-    fixture = TestBed.createComponent(ActualComponent);
+    fixture = TestBed.createComponent(AddGastoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
