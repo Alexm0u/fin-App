@@ -1,0 +1,11 @@
+.card {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  text-align: center;
+  max-width: 400px; /* Ajusta el ancho máximo según tus preferencias */
+}
+
+.btn {
+  margin-right: 10px;
+}
